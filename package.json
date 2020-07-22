@@ -1,10 +1,10 @@
 {
   "name": "gomojo-loading-screen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Go Mojo Loading Screen",
   "author": "bsisic",
   "license": "MIT",
-  "repository": "https://github.com/RedPillGroup/mojoloader.git",
+  "repository": "https://github.com/RedPillGroup/gomojo-loading-screen.git",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",

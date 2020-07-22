@@ -4,7 +4,7 @@
   "description": "Go Mojo Loading Screen",
   "author": "bsisic",
   "license": "MIT",
-  "repository": "bsisic/mojoloader",
+  "repository": "https://github.com/RedPillGroup/mojoloader.git",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",

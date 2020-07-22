@@ -1,4 +1,4 @@
-import styledComponents, { StyledFunction } from 'styled-components';
+import styledComponents from 'styled-components';
 
 export const Spin = styledComponents.div<{ spinnerColor: string }>`
     border: 4px solid rgba(0, 0, 0, 0.55);

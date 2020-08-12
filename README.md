@@ -22,6 +22,7 @@ import 'gomojo-loading-screen/dist/index.css'
 	isVisible={true}
 	message="Your message"
 	bgColor="#000"
+	bgMessage="rgba(0, 0, 0, 0.2)"
 	bgImage="../path-to-your-background-image"
 	color="#FFF"
 	fontFamily="HVD"
@@ -41,6 +42,7 @@ import 'gomojo-loading-screen/dist/index.css'
 | &#10003; | **bgColor**       | `string`  | #FFF                             | *Set the background color*                              |
 | &#10003; | **bgImage**       | `string`  | ../path-to-your-background-image | *Set the background image*                              |
 | &#10003; | **color**         | `string`  | #000                             | *Set the descritpion's color*                           |
+| &#10003; | **bgMessage**     | `string`  | rgba(0, 0, 0, 0.2)               | *Set the message background color*                           |
 | &#10003; | **fontFamily**    | `string`  | HVD                              | *Set the font family*                                   |
 | &#10003; | **fontSize**      | `string`  | 2rem                             | *Set the font size*                                     |
 | &#10003; | **logo**          | `string`  | ../path-to-your-logo             | *Set the logo*                                          |

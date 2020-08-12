@@ -20,7 +20,7 @@ export const Background = styledComponents.div<IBackground>`
   background-size: cover;
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   overflow: hidden;
   background-color: ${(props) => props.backgroundColor};
   background-image: url(${(props) => props.backgroundImage});

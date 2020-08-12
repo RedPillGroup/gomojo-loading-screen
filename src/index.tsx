@@ -12,6 +12,7 @@ export interface LoadingScreenProps {
   fontWeight: string;
   fontSize: string;
   bgImage: string;
+  bgMessage: string;
   logo: string;
   isVisible: boolean;
   spinnerColor: string;
@@ -29,6 +30,7 @@ const LoadingScreen: React.FunctionComponent<LoadingScreenProps> = ({
   isVisible,
   spinnerColor,
   landscapeGame,
+  bgMessage
 }) => (
   <BackgroundContainer
     backgroundColor={bgColor}
@@ -37,7 +39,7 @@ const LoadingScreen: React.FunctionComponent<LoadingScreenProps> = ({
     landscapeGame={landscapeGame}
   >
     <LoadingLogo logo={logo} />
-    <LoadingMessage color={color} fontFamily={fontFamily} fontSize={fontSize} message={message} />
+    <LoadingMessage color={color} bgMessage={bgMessage} fontFamily={fontFamily} fontSize={fontSize} message={message} />
     <Spinner spinnerColor={spinnerColor} />
   </BackgroundContainer>
 );

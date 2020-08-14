@@ -3,6 +3,7 @@ import { isMobileOnly } from 'react-device-detect';
 
 export interface IBackground {
   backgroundColor: string;
+  backgroundGradient: string;
   backgroundImage: string;
   isVisible: boolean;
   landscapeGame: boolean;
@@ -24,6 +25,7 @@ export const Background = styledComponents.div<IBackground>`
   overflow: hidden;
   background-color: ${(props) => props.backgroundColor};
   background-image: url(${(props) => props.backgroundImage});
+  background: ${(props) => props.backgroundGradient};
   @media all and (orientation: portrait) {
       ${(props) =>
         props.landscapeGame && isMobileOnly

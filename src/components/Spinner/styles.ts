@@ -6,7 +6,7 @@ export const Spin = styledComponents.div<{ spinnerColor: string }>`
     border-radius: 50%;
     width: 2rem;
     height: 2rem;
-    animation: spin 0.8s linear infinite;
+    animation: spin 0.6s linear infinite;
     z-index: 2100;
 
     @keyframes spin {

@@ -4,6 +4,7 @@ import { Background, IBackground } from './styles';
 
 const BackgroundContainer: React.FunctionComponent<IBackground> = ({
   backgroundColor,
+  backgroundGradient,
   backgroundImage,
   isVisible,
   landscapeGame,
@@ -11,6 +12,7 @@ const BackgroundContainer: React.FunctionComponent<IBackground> = ({
 }) => (
   <Background
     backgroundColor={backgroundColor}
+    backgroundGradient={backgroundGradient}
     backgroundImage={backgroundImage}
     isVisible={isVisible}
     landscapeGame={landscapeGame}

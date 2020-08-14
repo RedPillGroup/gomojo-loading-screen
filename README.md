@@ -39,6 +39,8 @@ import 'gomojo-loading-screen/dist/index.css'
 | &#10003; | **isVisible**     | `boolean` | true                             | *Determine if the component is load or not*             |
 | &#10003; | **message**       | `string`  | Chargement ...                   | *Loading message*                                       |
 | &#10003; | **bgColor**       | `string`  | #FFF                             | *Set the background color*                              |
+| &#10003; | **overlayOpacity**| `string`  | 0.35                             | *Set the overlay opacity*                               |
+| &#10003; | **bgMessage**     | `string`  | rgba(0, 0, 0, 0.2)               | *Set the message background color*                      |
 | &#10003; | **bgImage**       | `string`  | ../path-to-your-background-image | *Set the background image*                              |
 | &#10003; | **color**         | `string`  | #000                             | *Set the descritpion's color*                           |
 | &#10003; | **fontFamily**    | `string`  | HVD                              | *Set the font family*                                   |

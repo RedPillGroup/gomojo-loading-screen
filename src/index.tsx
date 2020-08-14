@@ -3,6 +3,7 @@ import Spinner from './components/Spinner';
 import LoadingLogo from './components/LoadingLogo';
 import LoadingMessage from './components/LoadingMessage';
 import BackgroundContainer from './components/BackgroundContainer';
+import OverlayContainer from './components/OverlayContainer';
 
 export interface LoadingScreenProps {
   message: string;
@@ -17,6 +18,7 @@ export interface LoadingScreenProps {
   isVisible: boolean;
   spinnerColor: string;
   landscapeGame: boolean;
+  overlayOpacity: string;
 }
 
 const LoadingScreen: React.FunctionComponent<LoadingScreenProps> = ({
@@ -30,7 +32,8 @@ const LoadingScreen: React.FunctionComponent<LoadingScreenProps> = ({
   isVisible,
   spinnerColor,
   landscapeGame,
-  bgMessage
+  bgMessage,
+  overlayOpacity
 }) => (
   <BackgroundContainer
     backgroundColor={bgColor}
@@ -38,6 +41,7 @@ const LoadingScreen: React.FunctionComponent<LoadingScreenProps> = ({
     isVisible={isVisible}
     landscapeGame={landscapeGame}
   >
+    <OverlayContainer overlayOpacity={overlayOpacity} landscapeGame={landscapeGame} />
     <LoadingLogo logo={logo} />
     <LoadingMessage color={color} bgMessage={bgMessage} fontFamily={fontFamily} fontSize={fontSize} message={message} />
     <Spinner spinnerColor={spinnerColor} />

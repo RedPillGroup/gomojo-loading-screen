@@ -16,6 +16,7 @@ export const Message = styledComponents.p<IMessageStyle>`
     font-weight: 400;
     padding: 0.4rem;
     margin: 1rem auto;
+    z-index: 2100;
     text-align: center;
-    background-color: ${(props) => props.bgMessage || 'inherit'};
+    background-color: ${(props) => props.bgMessage || 'transparent'};
 `;
